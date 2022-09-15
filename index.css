@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Carter One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/carterone/v17/q5uCsoe5IOB2-pXv9UcNExN8hK5SAMo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-image: url("https://images.thdstatic.com/productImages/e53c98ca-3c45-40ec-ab99-10b8be0dd4de/svn/laura-ashley-wallpaper-rolls-113350-64_300.jpg")
+    /* background-position: center, no-repeat; */
+    
+  }
+  h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  .title {
+    word-spacing: 0px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    filter: drop-shadow(-1.5px 1.5px 0.5px #000);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #E0B100;
+    font-family: 'Carter One', monospace;
+    font-size: 50px;
+  }
+  
+  .joke {
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: line-through red;
+    letter-spacing: 2px;
+    opacity: 0.8;
+  }
+  
+  table {
+    border: 1px solid #FFD700;
+    border-collapse: separate;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    background: linear-gradient(white, #ffeca7);
+    position: relative;
+  }
+  
+  
+  th {
+    background: linear-gradient(#ffeca7, #FFF8DF);
+    padding: 10px;
+    border-bottom: 1px solid #FFD700;
+  }
+  
+  td {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    padding: 3px 10px 10px 0;
+  }
+  
+  .head1, .head2, .head3 {
+    text-align: center;
+  }
+  
+  .tag {
+    font-family: monospace;
+    background-color: white;
+  }
+  
+  .name, .description {
+    font-size: 14px;
+  }
+  
+  .properties {
+    color: darkred;
+    
+  }
+  
+  .prop {
+    color: blue;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    width: 92px;
+  }
