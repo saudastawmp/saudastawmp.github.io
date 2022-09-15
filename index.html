@@ -1,9 +1,115 @@
+<!DOCTYPE html>
 <html>
- 
+  <head>
+    <title>Sauda's Layout Cheatsheet</title>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  </head>
   <body>
-    <h1>STAWMP IT</h1>
-    <p>No thinking, no deciding, just DO!</p>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+
+    <!-- title -->
+    <h1>
+      <span class="title">LAYOUT CHEATSHEET
+      </span>
+      <div class="joke">(for Loyal Fiances)  
+      </div>
+    </h1>
+
+    <!-- table -->
+    <table>
+      <!-- head -->
+      <thead>
+        <tr>
+          <th class="head1">CSS Property/Value</th>
+          <th class="head2">Name</th>
+          <th class="head3">Description</th>
+        </tr>
+      </thead>
+
+      <!-- body -->
+      <tbody>
+        <tr>
+          <td class="prop"><span class="tag">position:</span></td>
+          <td class="name"><strong class="properties">Position Property</strong></td>
+          <td class="description">The default position of an element can be changed by setting its position property. The position property can take one of five values: 
+            <ul>
+              <span class="tag"> 
+                <li>Static</li>
+                <li>Relative</li>
+                <li>Absolute</li>
+                <li>Fixed</li> 
+                <li>Sticky</li>
+              </span>
+            </ul> 
+            <span class="tag">Static</span> is the default and does not need to be defined.
+          </td>
+        </tr>
+        <tr>
+          <td><span class="tag">relative</span></td>
+          <td class="name">Relative Value</td>
+          <td class="description">Allows you to specify the position of an element relative to the <u>offset properties</u>: <span class="tag">top</span>, <span class="tag">bottom</span>, <span class="tag">left</span>, <span class="tag">right</span>.</td>
+        </tr>
+        <tr>
+          <td><span class="tag">absolute</span></td>
+          <td class="name">Absolute Value</td>
+          <td class="description">All other elements on the page ignore the element and act like it is not present on the page. Offset properties may be used alongside this property.</td>
+        </tr>
+        <tr>
+          <td><span class="tag">fixed</span></td>
+          <td class="name">Fixed Value</td>
+          <td class="description">Element can be fixed to a specific position on the page by accompanying with the offset properties above.</td>
+        </tr>
+        <tr>
+          <td><span class="tag">sticky</span></td>
+          <td class="name">Sticky Value</td>
+          <td class="description">Sticks element to a specified position and moves it along the page as the document is scrolled. Offset properties may be used alongside this property.</td>
+        </tr>
+         <tr>
+          <td><span class="tag">z-index</span></td>
+          <td class="name">Z-index Value</td>
+          <td class="description">Controls how far back or how far forward an element should appear on the web page when elements overlap, like <i>depth</i>. The higher the integer value used, the more forward the element will be.</td>
+        </tr>
+         <tr>
+          <td class="prop"><span class="tag">display:</span></td>
+          <td class="name"><strong class="properties">Display Property</strong></td>
+          <td class="description">Dictates if an element can share horizontal space with other elements. The display property can take one of three values:
+            <ul>
+              <span class="tag"> 
+                <li>inline</li>
+                <li>block</li>
+                <li>inline-block</li>
+              </span>
+            </ul> 
+          </td>
+        </tr>
+        <tr>
+          <td><span class="tag">inline</span></td>
+          <td class="name">Inline Value</td>
+          <td class="description">Inline elements do not require a new line to display their content. They cannot be altered in size with the <span class="tag">height</span> or <span class="tag">weight</span> properties. This is the default display for some elements, such as <span class="tag">&lt;em&gt;</span>, <span class="tag">&lt;strong&gt;</span>, <span class="tag">&lt;a&gt;</span>.</td>
+        </tr>
+        <tr>
+          <td><span class="tag">block</span></td>
+          <td class="name">Block Value</td>
+          <td class="description">Fills the entire width of the page by default, they are not displayed in the same line as the content around them. Some default block-level elements are <span class="tag">h1</span> through <span class="tag">h6</span>, <span class="tag">&lt;p&gt;</span>, and <span class="tag">&lt;div&gt;</span>.</td>
+        </tr>
+        <tr>
+          <td><span class="tag">inline-block</span></td>
+          <td class="name">Inline Block Value</td>
+          <td class="description">Combines features of both inline and block elements. Inline-block elements can appear next to each other and we can specify their dimensions using the <span class="tag">width</span> and <span class="tag">height</span> properties.</td>
+        </tr>
+        <tr>
+          <td class="prop"><span class="tag">float:</span></td>
+          <td class="name"><strong class="properties">Float Property</strong></td>
+          <td class="description">Moves an element as far left or as far right as possible. Often set using one of the values <span class="tag">left</span> or <span class="tag">right</span>.</td>
+        </tr>
+        <tr>
+          <td class="prop"><span class="tag">clear:</span></td>
+          <td class="name"><strong class="properties">Clear Property</strong></td>
+          <td class="description">Specifies how elements should behave when they bump into each other on the page. It can take on the <span class="tag">left</span>, <span class="tag">right</span>, <span class="tag">both</span>, or <span class="tag">none</span> values. These values indicate which side of the element will not any other element within the same containing element.</td>
+        </tr>
+
+      </tbody>
+      
+    </table>
   </body>
- 
 </html>
+
